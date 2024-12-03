@@ -1,0 +1,69 @@
+_version = 2
+
+[program.desc]
+en = "A program that converts a GeometryCollection in GeoJSON to a MultiPolygon."
+zh-CN = "一个把 geojson 的 GeometryCollection 转成 MultiPolygon 的程序"
+
+[program.version.str]
+en = "version"
+zh-CN = "版本"
+
+[msg.get_run_dic]
+en = "Failed to obtain the program's running directory"
+zh-CN = "获取运行目录失败"
+
+[msg.press_any_key_exit]
+en = "Press any key to exit..."
+zh-CN = "按下任意键退出..."
+
+[msg.continue_or_not]
+en = "Continue processing?"
+zh-CN = "继续处理？"
+
+[msg.no_file_found]
+en = "No geojson file found in folder"
+zh-CN = "没有在文件夹找到 geojson 文件"
+
+[msg.read_file]
+en = "read file"
+zh-CN = "读到文件"
+
+[msg.process_feature]
+en = "processing Feature named: %{name}"
+zh-CN = "正在处理Feature名为: %{name}"
+
+[msg.process_complete]
+en = "Processing is complete"
+zh-CN = "处理完成"
+
+[err.process_fail]
+en = "process %{path} fail: %{e}"
+zh-CN = "处理 %{path} 失败: %{e}"
+
+[err.user_cancel]
+en = "User cancel"
+zh-CN = "用户取消"
+
+[err.user_dont_select]
+en = "No folder is selected"
+zh-CN = "没有选择任何文件夹"
+
+[err.not_geojson]
+en = "This file is not a geojson file or the type of the geojson file is not a FeatureCollection"
+zh-CN = "不是geojson文件或者geojson文件type不是FeatureCollection，不进行处理"
+
+[err.create_folder_fail]
+en = "Create folder fail %{e}"
+zh-CN = "创建目录失败 %{e}"
+
+[err.create_file_fail]
+en = "Create file fail %{e}"
+zh-CN = "创建文件失败 %{e}"
+
+[err.trans_json_fail]
+en = "Failed to convert to json: %{e}"
+zh-CN = "转换 json 失败: %{e}"
+
+[err.write_file_fail]
+en = "Failed to write to file: %{e}"
+zh-CN = "写入文件失败: %{e}"
